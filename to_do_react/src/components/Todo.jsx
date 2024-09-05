@@ -11,6 +11,7 @@ const Todo = ({ todo, removeTodo, completTodo }) => {
             <div>
               <button className="complete" onClick={() => completTodo(todo.id)}>Completar</button>
               <button className="remove" onClick={() => removeTodo(todo.id)}>X</button>
+              <button className="edita" onClick={() => EditTodo(todo.id)}>Editar</button>
             </div>
     </div>
   )

@@ -56,7 +56,10 @@ button:hover{
   align-items: center;
 }
 .complete{
-  background-color: #5cb85c;
+  background-color: #c4d10f;
+}
+.edita{
+  background-color: #37a10d;
 }
 .remove{
   background-color: #d9534f;
